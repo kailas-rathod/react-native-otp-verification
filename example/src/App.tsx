@@ -2,10 +2,11 @@ import * as React from 'react';
 
 import { StyleSheet, Text, View } from 'react-native';
 import {
-  getHash, requestHint,
+  getHash,
+  requestHint,
   startOtpListener,
   useOtpVerify,
-} from 'react-native-otp-verify';
+} from 'react-native-otp-verification';
 
 export default function App() {
   const [hashFromMethod, setHashFromMethod] = React.useState<string[]>();
