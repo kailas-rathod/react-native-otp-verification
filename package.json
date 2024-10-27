@@ -1,0 +1,27 @@
+{
+  "name": "react-native-otp-verification",
+  "version": "1.0.0",
+  "description": "react-native-otp-verification",
+  "main": "description:",
+  "scripts": {
+    "test": "jest",
+    "typescript": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "prepare": "bob build",
+    "release": "release-it",
+    "example": "yarn --cwd example",
+    "pods": "cd example && pod-install --quiet",
+    "bootstrap": "yarn example && yarn && yarn pods"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/kailas-rathod/react-native-otp-verification",
+  "author": "Kailas Rathod",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.6.3"
+  }
+}
